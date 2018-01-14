@@ -1,12 +1,11 @@
 //
 //  Created by Adam Gic on 15.06.2015.
-//  Copyright (c) 2015 UAM. All rights reserved.
 //
 
-#include "DigitPixels.h"
+#include "DigitPixels.hpp"
 
 void help() {
-    cout << "Usage: DigitPixels <training set directory path> <test image path>" << endl;
+    cout << "Usage: DigitRecognizer <training set directory path> <test image path>" << endl;
 }
 
 int main(int argc, char *argv[]) {

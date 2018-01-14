@@ -1,9 +1,8 @@
 //
 //  Created by Adam Gic on 06.06.2015.
-//  Copyright (c) 2015 UAM. All rights reserved.
 //
 
-#include "DigitPixels.h"
+#include "DigitPixels.hpp"
 #include "opencv/cv.h"
 #include "opencv/ml.h"
 #include "opencv/highgui.h"

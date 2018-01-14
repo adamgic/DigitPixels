@@ -1,6 +1,5 @@
 //
 //  Created by Adam Gic on 06.06.2015.
-//  Copyright (c) 2015 UAM. All rights reserved.
 //
 
 #ifndef __DigitRecognition__DigitPixels__
