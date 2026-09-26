@@ -42,12 +42,12 @@ Visualization of training expected outputs:
 
 ### Compile
 
-Clone repository in the command line, change directory to the one containing the repository content and run **make** command.
+Clone repository in terminal, change directory to the one containing the repository content and execute **build.sh** script.
 
 ```shell
 git clone https://github.com/adamgic/DigitPixels.git
 cd DigitPixels
-make
+build.sh
 ```
 
 ### Run
@@ -55,7 +55,7 @@ make
 Run passing path to directory containing training set as first argument and name of input image as second argument.
 
 ```shell
-./DigitRecognizer digits/ inputImage.png 
+./build/debug/DigitRecognizer data/digits data/inputImage.png
 ```
 
 You will see output visualization containing excitation diagram for each output neuron depending on the shift of Rectangle of Interest along the input image. It is easy to see that when the rectanlge of interests is containing a digit the neuron representing it is the one excited the most:

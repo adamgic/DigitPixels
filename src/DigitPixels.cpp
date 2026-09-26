@@ -27,18 +27,9 @@ const char *digitNames[] = {
     "nine",
 };
 
-// Mat cropUselessDataFromImage(Mat image);
-// Mat prepareNetworkDataFromImage(Mat img);
 void createNetwork();
 void trainNetworkWithImages(vector<string> imagesPaths, bool showTrainingWindows);
 void validateImage(Mat image, const string &imageFilePath);
-
-// DigitPixels::DigitPixels(string digitImagesDirectory)
-// {
-//     this->digitImagesDirectory = digitImagesDirectory;
-//     createNetwork();
-//     trainNetworkWithImages(this->digitImagesNames(), false);
-// }
 
 DigitPixels::DigitPixels(string directory, bool showTrainingWindows)
     : digitImagesDirectory(directory)
