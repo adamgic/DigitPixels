@@ -28,3 +28,7 @@ DigitRecognizer
 *.exe
 *.out
 *.app
+
+/build/
+/CMakeUserPresets.json
+
